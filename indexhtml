@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">Codesk</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our services</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Get Started</a></li>
+        <li><a href="#">Sign in</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-text">
+        <h1>Project <br>Management</h1>
+        <h3>Time to get organised</h3>
+        <p>
+          It is a long established fact that a reader will be distracted
+          by the readable content of a page when looking at its layout.
+        </p>
+        <div class="hero-buttons">
+          <button class="btn primary">Get Started</button>
+          <button class="btn secondary">Read our services</button>
+        </div>
+      </div>
+      <div class="hero-image.png">
+        <img src="hero-image.png" alt="hero-image.png">
+      </div>
+    </header>
+  </div>
+</body>
+</html>
